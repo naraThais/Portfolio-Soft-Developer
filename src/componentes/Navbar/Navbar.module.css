@@ -1,0 +1,87 @@
+.tn {
+    position: relative;
+}
+.nara {
+    font-family: Italiana;
+}
+.thaisNaraTxtContainer {
+    width: 100%;
+}
+.thaisNara {
+    width: 151px;
+    position: relative;
+    font-size: 24px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    flex-shrink: 0;
+    margin-top: -20px;
+    font-family: 'Istok Web';
+}
+.tnParent {
+    width: 134px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.projetos {
+    position: relative;
+    cursor: pointer;
+}
+.entreEmContato {
+    position: relative;
+    font-family: Inter;
+    cursor: pointer;
+}
+.sobreMim {
+    width: 799px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 40px;
+    font-size: 20px;
+    font-family: 'Acumin Pro';
+}
+
+
+.navbar1 {
+    position: fixed;
+    top: 0;
+    left: 140px;
+    right: 140px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 1160px; /* Define a largura do container */
+    margin: 0 auto; /* Centraliza o container na página */
+}
+
+.sobreMim,
+.entreEmContato,
+.projetos {
+    margin-left: auto; /* Define que os elementos fiquem no final à esquerda dentro do container */
+}
+
+
+
+.navbar {
+    width: 100%;
+    position: relative;
+    height: 95px;
+    text-align: left;
+    font-size: 64px;
+    color: #fff;
+    font-family: Italiana;
+}
+
